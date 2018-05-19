@@ -1,0 +1,110 @@
+/*重置样式*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, div,span { margin:0; padding:0;box-sizing:border-box; }
+fieldset, img { border:none; }
+img{vertical-align: middle;}
+em,i,b,strong{ font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; } 
+a {text-decoration:none; }
+
+.headers{
+    height: 36px;
+    background:#3e4353;
+    /*margin:0 auto;*/
+    .header1{
+        height: 36px;
+        width: 1102px;
+        margin:0 auto;
+        .left{
+            width: 100px;
+            height: 20px;
+            float:left;
+            margin-left:54px;
+            margin-top:8px;
+            line-height: 20px;
+            a{
+                color:#cccccc;
+                font-size: 12px;
+                display:inline-block;
+            }
+            .a1{
+                border-right:1px solid #666666;
+                padding-right:10px;
+            }
+            .a2{
+                padding-left:10px;
+            }
+        }
+        .right{
+            float:right;
+            margin-right:52px;
+            margin-top:9px;
+        }
+    }
+}
+.headerz{
+    height: 176px;
+    backgorund:#ffffff;
+    border-bottom:5px solid #efefef;
+    .header1{
+        height: 176px;
+        width: 1102px;
+        margin:0 auto;
+        text-align: center;
+        position:relative;
+        img{
+            width: 385px;
+            height: 45px;
+            margin-top:32px;
+        }
+        ul{
+            width: 482px;
+            height: 28px;
+            margin:0 auto;
+            margin-top:48px;
+            display:flex;
+            justify-content: space-between;
+            li{
+               font-weight: 700;
+               font-size: 18px;
+               padding-bottom:27px;
+               a{
+                color:#3e4353;
+               } 
+            }
+            li:hover{
+                border-bottom:5px solid #e1c885;
+                a{
+                    color:#e1c885;        
+                }    
+            }
+            .li1{
+                border-bottom:5px solid #e1c885;
+                a{
+                    color:#e1c885;
+                }
+            }
+        }
+        div{
+                width: 245px;
+                height: 33px;
+                position:absolute;
+                top:38px;
+                right:50px;
+                input{
+                    border:none;
+                }
+                .ss{
+                    width: 210px;
+                    height: 32px;
+                    font-size:14px;
+                    float:left;
+                    border-bottom:2px solid #3e4353;
+                }
+                .btn{
+                    width: 30px;
+                    height: 33px;
+                    background:url(/imgs/94.png);
+                }
+            }
+    }
+}

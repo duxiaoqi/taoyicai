@@ -27,7 +27,7 @@ gulp.task("sass", function(){
 gulp.task("css", function(){
 	gulp.src("./src/**/*.css")
 		.pipe(minifyCss())
-		.pipe(gulp.dest("./dist/"))，
+		.pipe(gulp.dest("dist/"))
 		.pipe(connect.reload());
 });
 
@@ -79,4 +79,4 @@ gulp.task("watch", function(){
 });
 
 // 定义默认任务
-gulp.task("default", ["sass", "html", "js", "copy", "conn", "watch"]);
+gulp.task("default", ["sass", "html", "js", "css", "copy", "conn", "watch"]);
