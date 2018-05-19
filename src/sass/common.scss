@@ -6,6 +6,9 @@ em,i,b,strong{ font-style:normal; font-weight:normal; }
 ul, ol { list-style:none; } 
 a {text-decoration:none; }
 
+header{
+    border-bottom:5px solid #efefef;
+}
 .headers{
     height: 36px;
     background:#3e4353;
@@ -44,7 +47,6 @@ a {text-decoration:none; }
 .headerz{
     height: 176px;
     backgorund:#ffffff;
-    border-bottom:5px solid #efefef;
     .header1{
         height: 176px;
         width: 1102px;
@@ -106,5 +108,108 @@ a {text-decoration:none; }
                     background:url(/imgs/94.png);
                 }
             }
+    }
+}
+.headerx{
+    background:#ffffff;
+    .header1{
+        width: 1102px;
+        height: 116px;
+        margin:0 auto;
+        display:none;
+        ul{
+            width: 353px;
+            height:100%;
+            margin-left:440px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            li a{
+                color:#000000;
+            }
+            li:hover{
+                a{
+                    color:#e5d198;
+                }
+            }
+        }
+    }
+    .header2{
+        width: 1102px;
+        height: 116px;
+        display:none;
+        ul{
+            width: 785px;
+            height:100%;
+            margin-left:385px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            li img{
+                width: 45px;
+                height: 52px;
+            }
+            li a{
+                color:#000000;
+            }
+            li:hover{
+                a{
+                    color:#e5d198;
+                }
+            }     
+        }
+    }
+}
+.footers{
+    height: 310px;
+    background:#3e4353;
+    .footer1{
+        height: 310px;
+        width: 1102px;
+        margin:0 auto;
+        border-bottom:1px solid #666666;
+        display:flex;
+        justify-content: space-around;
+        dl{
+            width: 128px;
+            height: 171px;
+            text-align: center;
+            margin-top:79px;
+            dt{
+                width: 60px;
+                height: 60px;
+                margin:0 auto;
+                img{
+                    width: 60px;
+                    height: 60px;  
+                }
+            }
+            dd{
+                font-size: 14px;
+                color:#999999;
+                h3{
+                    font-size: 16px;
+                    color:#ffffff;
+                    margin-top:24px;
+                    margin-bottom:15px;
+                }
+            }
+        }
+    }
+}
+.footerz{
+    height: 120px;
+    background:#3e4353;
+    .footer1{
+        height: 120px;
+        width: 1102px;
+        margin:0 auto;
+        text-align: center;
+        overflow:hidden;
+        p{
+            font-size:14px;
+            color:#b7b8ba;
+            margin-top:50px;
+        }
     }
 }
